@@ -1,0 +1,22 @@
+{
+    "name": "fadp/introcomposer",
+    "description": "\"intro composer\"",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Rincon",
+            "email": "jorgemariorincon@hotmail.com"
+        }
+    ],
+    "autoload":{
+        "files":[
+            "app/funciones/cargar1.php",
+            "app/funciones/carga2.php"
+        ],
+        "psr-4":{
+            "App\\":"app/"
+        }
+    },
+    "require": {}
+}

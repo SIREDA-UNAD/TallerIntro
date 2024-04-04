@@ -1,0 +1,20 @@
+{
+    "name": "fadp/composerclase2",
+    "description": "\"introduccion a Composer \"",
+    "type": "project",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Mario Rincon",
+            "email": "jorgemariorincon@hotmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"app/"
+        }
+    },
+    
+    "require": {}
+}
